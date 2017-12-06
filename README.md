@@ -1,2 +1,2 @@
-# GitHub_Formatting
-Writing styles and formatting syntax for README.md files.
+ # GitHub_Formatting
+Writing styles and formatting syntax for README.md files. :+1:
