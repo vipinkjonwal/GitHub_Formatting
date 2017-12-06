@@ -38,3 +38,41 @@ Example: You are referring `GitHub` Writing Syntax.
 Syntax : Text wrapped in [ ] and URL in ( )
 Example : I have referred the [Official Github Documentation](https://help.github.com/articles/basic-writing-and-formatting-syntax/) for this document.  
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+## Lists
+
+Syntax: 
+*Unordered Lists*
+- First Element or * First Element
+- Second Element or * Second Element
+- Third Element or * Third Element
+
+*Ordered Lists*
+1. First Element
+2. Second Element
+-------------------------------------
+
+## Nested Lists
+
+Syntax:
+1. First Heading
+   - First Subheading
+     - First Sub-subheading
+-------------------------------------
+
+## Task Lists
+Syntax:
+- [x] This is checked
+- [ ] Unchecked
+- [ ] Another Unchecked
+--------------------------------------
+
+## Ignoring MarkDown Characters
+Syntax:
+Use \ i.e, escape character before markdown formatting.
+Example:
+This will not be formatted to \*bold\*
+-------------------------------------------------------
+
+
+-
