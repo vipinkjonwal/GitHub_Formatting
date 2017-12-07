@@ -19,9 +19,11 @@ Example : This is _italic_.
 Example: This is ~~mistaken~~ text.
 -----------------------------------
 
-## Quoting Texts
+## Quoting Texts / Blockquote
+A blockquote is a sentence or paragraph that's been specially formatted to draw attention to the reader.
 
-Syntax : >
+Syntax: To create a block quote, all you have to do is preface a line with the "greater than" caret >. 
+
 Example:
 > This is a quotted text.
 > This can be done using '>' operator.
@@ -36,7 +38,8 @@ Example: You are referring `GitHub` Writing Syntax.
 ## Links
 
 Syntax : Text wrapped in [ ] and URL in ( )
-Example : I have referred the [Official Github Documentation](https://help.github.com/articles/basic-writing-and-formatting-syntax/) for this document.  
+Example : I have referred the [Official Github Documentation](https://help.github.com/articles/basic-writing-and-formatting-syntax/) 
+for this document.  
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ## Lists
@@ -73,3 +76,37 @@ Use \ i.e, escape character before markdown formatting.
 Example:
 This will not be formatted to \*bold\*
 -------------------------------------------------------
+
+## Markdown Images
+
+Syntax: Prefaced with ! 
+
+Two ways:
+1. inline image link
+To create an inline image link, enter an exclamation point  ! , wrap the alt text in brackets  [ ] , and then 
+wrap the link in parenthesis ( ).
+
+Example : ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png).
+
+2. reference link
+For a reference image, you'll follow the same pattern as a reference link. You'll precede the Markdown with 
+an exclamation point, then provide two brackets for the alt text, and then two more for the image tag. At the bottom 
+of your Markdown page, you'll define an image for the tag.
+
+Example:
+![The first][First]
+[First]: http://octodex.github.com/images/founding-father.jpg
+-------------------------------------------------------------------------------------------------------------------
+
+## Paragraphs
+You can accomplish this by inserting two spaces after each new line. This is not possible to see, since spaces are invisible.
+In this way, we can actually add soft breaks in the paragraphs. Inserting new lines can insert a blank line in between the
+paragraph with is known as hard break.
+
+Syntax : Put two spaces at end of line (Let for this, .. represents two spaces.)
+
+Example: 
+Do I contradict myself?··
+Very well then I contradict myself,··
+(I am large, I contain multitudes.)
+---------------------------------------------------------------------------------------------------------------------------
