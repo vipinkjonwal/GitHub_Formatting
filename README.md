@@ -1,8 +1,8 @@
 
 # GitHub_Formatting
-Writing styles and formatting syntax for `markdown` files.  
-Markdown Files have extensions .md  
-On GitHub, the initial README files are of markdown type. 
+>Writing styles and formatting syntax for `markdown` files.  
+>Markdown Files have extensions .md  
+>On GitHub, the initial README files are of markdown type. 
 
 ## Topics 
 
